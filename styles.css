@@ -41,9 +41,9 @@ body {
 }
 
 #activities-section {
-    height: 450px;
     background-color: white;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #activities-container {
@@ -77,6 +77,31 @@ body {
 }
 
 #card-section {
-    height: 600px;
-    background-color: ;
+    height: 500px;
+    background-color: #003566;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    height: 300px;
+    width: 600px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    border-radius: 20px;
+}
+
+#guide-img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#card-info {
+    text-align: center;
+    width: 300px;
+    color: #001d3d;
 }
