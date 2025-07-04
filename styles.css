@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    color: black;
+    font-family: Inter;
+}
+
+#hero-section {
+    background-image: url("https://images.unsplash.com/photo-1536308037887-165852797016?q=80&w=2626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: 50% 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: aliceblue;
+    margin-top: 0;
+    font-size: 40px;
+    background: #003566;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#subtitle {
+    color: aliceblue;
+    background: #001d3d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+#activities-sub {
+    color: #001d3d;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#activities-section {
+    height: 450px;
+    background-color: white;
+    text-align: center;
+}
+
+#activities-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.activity {
+    text-align: center;
+    /* border: 3px solid #001d3d; */
+    margin: 0px 20px;
+    color: #003566;
+    width: 400px;
+}
+
+
+.activity p {
+    font-size: 16px;
+    line-height: 1.6;          /* más espacio entre líneas */
+    max-width: 400px;          /* evita que el texto sea muy ancho */
+    margin: 0 auto;            /* centra el párrafo dentro de la tarjeta */
+    color: #333;               /* un color un poco más suave */
+    text-align: center;     /* (opcional) alinear el texto para formato de bloque */
+}
+
+#card-section {
+    height: 600px;
+    background-color: ;
+}
